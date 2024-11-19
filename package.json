@@ -1,0 +1,13 @@
+{
+  "name": "svg-click-handler",
+  "version": "1.0.0",
+  "description": "A lightweight library to handle click events on embedded SVGs inside <object> elements.",
+  "main": "index.js",
+  "keywords": ["svg", "click-handler", "javascript", "npm-library"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosephberhanu/svg-click-handler.git"
+  },
+  "author": "Yoseph Berhanu",
+  "license": "MIT"
+}

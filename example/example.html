@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Click Handler</title>
+</head>
+<body>
+    <h1>SVG Click Handler Demo</h1>
+    <p>Click on any part of the SVG to trigger a callback.</p>
+
+    <!-- Embedded SVG -->
+    <object id="diagram" type="image/svg+xml" data="diagram.svg" width="600" height="400"></object>
+
+    <script src="index.js"></script>
+    <script>
+        // Get the embedded SVG object
+        const svgObject = document.getElementById("diagram");
+
+        // Initialize the click handler
+        SvgClickHandler.initialize(svgObject, (option) => {
+            console.log(`Clicked on: ${option}`);
+        });
+    </script>
+</body>
+</html>
